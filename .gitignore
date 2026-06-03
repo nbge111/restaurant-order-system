@@ -1,0 +1,34 @@
+# 排除嵌入式仓库
+MoneyPrinterTurbo/
+multi-chat-app/
+workspace/deer-flow/
+workspace/prompt-optimizer/
+
+# 排除系统文件
+node_modules/
+.DS_Store
+Thumbs.db
+
+# 排除构建产物
+dist/
+build/
+
+# 排除日志文件
+*.log
+
+# 排除配置文件（可选）
+.env
+.env.local
+.openclaw
+.autogenstudio
+agents/
+cron/
+devices/
+identity/
+autogen/
+ai-chat-app/
+board-game-app/
+restaurant-order/
+new-chat-app/
+vercel-chat/
+workspace/
